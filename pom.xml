@@ -104,9 +104,9 @@
 						<configuration>
 							<append>true</append>
 							<excludes>
-								<exclude>org/laladev/moneyjin/core/rest/model/**/*.class</exclude>
-								<exclude>org/laladev/moneyjin/businesslogic/model/**/*.class</exclude>
-								<exclude>org/laladev/moneyjin/businesslogic/dao/data/*.class</exclude>
+								<exclude>org/laladev/moneyjinn/core/rest/model/**/*.class</exclude>
+								<exclude>org/laladev/moneyjinn/businesslogic/model/**/*.class</exclude>
+								<exclude>org/laladev/moneyjinn/businesslogic/dao/data/*.class</exclude>
 							</excludes>
 						</configuration>
 						<executions>
