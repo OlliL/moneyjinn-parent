@@ -103,6 +103,11 @@
 						<artifactId>jacoco-maven-plugin</artifactId>
 						<configuration>
 							<append>true</append>
+							<excludes>
+								<exclude>org/laladev/moneyjin/core/rest/model/**/*.class</exclude>
+								<exclude>org/laladev/moneyjin/businesslogic/model/**/*.class</exclude>
+								<exclude>org/laladev/moneyjin/businesslogic/dao/data/*.class</exclude>
+							</excludes>
 						</configuration>
 						<executions>
 							<execution>
