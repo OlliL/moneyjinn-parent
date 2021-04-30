@@ -31,6 +31,7 @@
 		<mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
 		<commons.io.version>2.8.0</commons.io.version>
 		<commons.codec.version>1.15</commons.codec.version>
+		<apache.tika.version>2.0.0-ALPHA</apache.tika.version>
 
 		<junit.version>5.7.1</junit.version>
 		<juniversalchardet.version>2.4.0</juniversalchardet.version>
@@ -82,6 +83,11 @@
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
 				<version>${mybatis-spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-core</artifactId>
+				<version>${apache.tika.version}</version>
 			</dependency>
 
 			<!-- TEST SCOPE -->
